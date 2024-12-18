@@ -3,16 +3,16 @@ class Calculation:
 
     def __init__(self):
         print("연산 클래스 생성자 호출")
-
+    # 더하기 메소드
     def execPlus(self,num1,num2):
         return num1 + num2
-    
+    # 마이너스 메소드
     def execMinus(self,num1,num2):
         return num1 - num2
-    
+    #곱하기 메서드
     def execMultiply(self,num1,num2):
         return num1 * num2
-    
+    # 나누기 메서드
     def execDivide(self,num1,num2):
         if num2 != 0:
             return num1 / num2
