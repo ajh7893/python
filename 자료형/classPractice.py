@@ -5,7 +5,7 @@ class classPractice:
     def printTest(self):
         print("클래스 연습")
 
-    # 소멸자
+    # 소멸자 
     def __del__(self):
         print("클래스 소멸자 호출")
 
